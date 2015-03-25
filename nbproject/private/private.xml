@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/xamp/htdocs/Blog/config/database.php</file>
+            <file>file:/D:/xamp/htdocs/Blog/bootstrap/app.php</file>
+            <file>file:/D:/xamp/htdocs/Blog/bootstrap/autoload.php</file>
+            <file>file:/D:/xamp/htdocs/Blog/database/migrations/2015_03_20_184944_create_posts_table.php</file>
+        </group>
+    </open-files>
+</project-private>
