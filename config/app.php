@@ -136,6 +136,7 @@ return [
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
                 'AlfredoRamos\ParsedownExtra\ParsedownExtraServiceProvider',
+                 'Illuminate\Html\HtmlServiceProvider',
            
 
 		/*
@@ -194,7 +195,9 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
-               'Markdown'  => 'AlfredoRamos\ParsedownExtra\Facades\ParsedownExtra'
+               'Markdown'  => 'AlfredoRamos\ParsedownExtra\Facades\ParsedownExtra',
+                'Html'      => 'Illuminate\Html\HtmlFacade',
+                  'Form'      => 'Illuminate\Html\FormFacade'
 	],
 
 ];

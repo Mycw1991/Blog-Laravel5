@@ -1,19 +1,22 @@
 <?php namespace App\Http\Controllers;
 
 
-use App\Post;
+use Mail;
 
 class HomeController extends Controller {
     
     public function index()
-	{
-	$posts = Post::where('draft', '=', 0)->get();
-        // no draft on the home page
+	{ /*
+	Mail::send('emails.activate',array('username' =>'Mike'), function($message){
         
-      
+            $message->to('mycw1991@gmail.com', 'Mike Wong')-> subject('Test email');
+        });
+     
         
-        return view('home')->with('posts', $posts);
-	}
+     */
+        
+        return view('home');
+	
 
 }
-
+}
